@@ -1,18 +1,35 @@
 body
 {
-    background: rgb(16, 4, 80);
-    color: #f8f8f8;
+    background: rgb(10, 3, 71);
+    color: #333;
     text-align: center;
     font-family: "Arial";
-    font-size: 45px;
+    font-size: 30px;
     margin: 0;
     padding: 0;
+}
+
+#cabecera
+{
+    background: rgb(65, 170, 51);
+    box-shadow: 0px 0px 200px 0px rgba(0,0,0,0.7);
+    color: rgb(12, 6, 68);
+    font-weight: bold;
+    margin: 10;
+    padding: 0.3em;
+}
+
+#cabecera #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 1em;
 }
 
 #container
 {
     width: 90%;
-    padding: 1.1em;
+    padding: 0.2em;
     text-align: left;
     border: 3px solid #ddd;
     margin: 10 auto;
@@ -20,5 +37,11 @@ body
 
 #container h1
 {
-    font-size: 50px;
+    font-size: 90px;
+}
+
+#post
+{
+    background: white;
+    padding: 1em;
 }
